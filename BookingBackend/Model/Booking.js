@@ -15,7 +15,8 @@ const BookingSchema=new Schema({
     type:Date
    },
    Time:{
-    type:String
+    type:String,
+    require:true
    }
 }, { timestamps: true })
 
